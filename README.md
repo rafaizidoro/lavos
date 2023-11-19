@@ -1,4 +1,6 @@
 # Lavos: A Pythonic Cron Expression Serializer with Fluent Syntax
+![DALL·E 2023-11-19 15 06 51 - Logo design for an open source Python library named 'Lavos'  The logo should feature a stylized serpent or snake, representing Python, intertwined or ](https://github.com/rizidoro/lavos/assets/13101/6ce30f4b-bc35-477c-90d7-208ea5b4a870)
+
 
 Lavos is an innovative Python library that simplifies working with cron expressions. It replaces the cryptic syntax of traditional cron expressions with a fluent, human-readable API. Lavos allows you to define cron schedules for your tasks intuitively, making schedule management in Python applications easier than ever.
 
@@ -62,11 +64,6 @@ cron = Lavos()
   ```python
   # Cron: 0 9,17 * * 1-5
   cron.at("09:00", "17:00").on(WEEKDAYS)
-  ```
-- **First Day of Spring**:
-  ```python
-  # Cron: 0 0 20 3 *
-  cron.on(20).of(MAR).annually()
   ```
 
 ### Using AWS Format
